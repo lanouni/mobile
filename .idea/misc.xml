@@ -3,8 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Hp_EliteBook/Documents/emsi/S4/mobile/TP/app/src/main/res/drawable/empty_bac.xml" value="0.10462962962962963" />
         <entry key="..\:/Users/Hp_EliteBook/Documents/emsi/S4/mobile/TP/app/src/main/res/drawable/ic_baseline_mail_24.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/Hp_EliteBook/Documents/emsi/S4/mobile/TP/app/src/main/res/drawable/timeoutbtn.xml" value="0.2755208333333333" />
         <entry key="..\:/Users/Hp_EliteBook/Documents/emsi/S4/mobile/TP/app/src/main/res/layout/activity_main.xml" value="0.259375" />
+        <entry key="..\:/Users/Hp_EliteBook/Documents/emsi/S4/mobile/TP/app/src/main/res/layout/activity_quiz1.xml" value="0.1" />
+        <entry key="..\:/Users/Hp_EliteBook/Documents/emsi/S4/mobile/TP/app/src/main/res/layout/activity_register.xml" value="0.259375" />
+        <entry key="..\:/Users/Hp_EliteBook/Documents/emsi/S4/mobile/TP/app/src/main/res/layout/time_out_layout.xml" value="0.259375" />
       </map>
     </option>
   </component>

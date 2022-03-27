@@ -2,16 +2,23 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".MainActivity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="35dp"
-    android:orientation="vertical">
-
+    tools:context=".RegisterActivity"
+    android:orientation="vertical"
+    android:layout_margin="35dp">
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/logo" />
+        android:src="@drawable/logo"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:hint="Name"
+        android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/etLogin"
@@ -19,7 +26,7 @@
         android:layout_height="wrap_content"
         android:drawableLeft="@drawable/ic_baseline_mail_24"
         android:hint="Mail"
-        android:minHeight="48dp" />
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/etPassword"
@@ -30,19 +37,17 @@
         android:inputType="textPassword"
         android:minHeight="48dp" />
 
+    <EditText
+        android:id="@+id/etConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+        android:hint="Confirm"
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/bLogin"
-
+        android:id="@+id/bRegister"
         android:text="Sign in" />
-
-    <TextView
-        android:id="@+id/tvRegister"
-        android:layout_width="232dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="to Register click here !"
-        android:textColor="@color/black"
-        android:textSize="22sp" />
 </LinearLayout>
